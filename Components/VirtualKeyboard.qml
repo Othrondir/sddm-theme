@@ -9,7 +9,7 @@ import QtQuick.VirtualKeyboard 2.3
 
 InputPanel {
     id: virtualKeyboard
-    property bool activated: false
+    property bool activated: true
     active: activated && Qt.inputMethod.visible
     visible: active
 }

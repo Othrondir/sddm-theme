@@ -1,10 +1,7 @@
-# sddm-flower-theme
+# sddm-theme
 
 A theme for the [SDDM login manager](https://github.com/sddm/sddm) based on [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark).
-Screen resolution: 1080p.
-
-### Preview
-![Preview](./Previews/preview.png)
+Screen resolution: 1920 x 1280
 
 ### Dependencies
 
@@ -17,15 +14,15 @@ qt5-graphicaleffects qt5-quickcontrols2 qt5-svg sddm
 1. Clone this repository, copy fonts to `/usr/share/fonts/`:
 
    ```sh
-   sudo git clone https://github.com/keyitdev/sddm-flower-theme.git /usr/share/sddm/themes/sddm-flower-theme
-   sudo cp /usr/share/sddm/themes/sddm-flower-theme/Fonts/* /usr/share/fonts/
+   sudo git clone https://github.com/Othrondir/sddm-theme.git /usr/share/sddm/themes/sddm-theme
+   sudo cp /usr/share/sddm/themes/sddm-theme/Fonts/* /usr/share/fonts/
    ```
 
 2. Then edit `/etc/sddm.conf`, so that it looks like this:
 
     ```sh
     echo "[Theme]
-    Current=sddm-flower-theme" | sudo tee /etc/sddm.conf
+    Current=sddm-theme" | sudo tee /etc/sddm.conf
     ```
 
 ### Credits
