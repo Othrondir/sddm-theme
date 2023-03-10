@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=sddm-flower-theme
-Description=sddm-flower-theme
+Name=sddm-theme
+Description=sddm-theme
 Author=keyitdev
 License=GPL-3.0-or-later
 Type=sddm-theme
@@ -9,4 +9,4 @@ Screenshot=Previews/preview.png
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Theme-Id=sddm-flower-theme
+Theme-Id=sddm-theme
